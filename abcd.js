@@ -164,3 +164,5 @@ for (let i=0 ; i<=20 ; i++) {
     else console.log (mango)
 }
 Hello Hello Check
+
+This is a text for pushing into GITHUB with Terminal
