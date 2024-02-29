@@ -165,9 +165,37 @@
 // }
 
 
-let a = 16 ;
-const b = 36 ;
-while (a*a < 1650) {
-    a=a+3;
-    console.log (a)
+// let a = 16 ;
+// const b = 36 ;
+// while (a*a < 1650) {
+//     a=a+3;
+//     console.log (a)
+// }
+
+// let a=16 , b=20;
+// do {
+//     a++;
+//     console.log (a) ;
+// } while(a<20) ;
+
+// for (let i=0 ; i<100 ; i++) {
+//     if (i%2 ==0) {
+//         console.log (`${i} is an even number`);
+//     }
+//     else {
+//         console.table (`${i} is an odd number`);
+//     }
+// }
+
+// let a = 1 ;
+// for (let i = 1 ; i<500 ; i++ ) {
+//     console.log (a*=i)
+// }
+
+
+let n = 20 ;
+for (let i = 1 ; i <=n ; i++) {
+    let str = "ASIF    " ;
+    let space = '    ' ;
+    console.log (space.repeat((n - i)) + str.repeat(i * 1 - 1 )) ;
 }
