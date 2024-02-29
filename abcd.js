@@ -156,10 +156,18 @@
 // }
 
 
-for (let i=0 ; i<=20 ; i++) {
-    console.log (i)
-    if(i='odd numbers') {
-        continue
-    }
-    else console.log (i)
+// for (let i=0 ; i<=20 ; i++) {
+//     console.log (i)
+//     if(i='odd numbers') {
+//         continue
+//     }
+//     else console.log (i)
+// }
+
+
+let a = 16 ;
+const b = 36 ;
+while (a*a < 1650) {
+    a=a+3;
+    console.log (a)
 }
