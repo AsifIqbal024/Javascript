@@ -161,5 +161,5 @@ for (let i=0 ; i<=20 ; i++) {
     if(i='odd numbers') {
         continue
     }
-    else console.log (mango)
+    else console.log (i)
 }
