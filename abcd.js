@@ -193,9 +193,33 @@
 // }
 
 
-let n = 20 ;
-for (let i = 1 ; i <=n ; i++) {
-    let str = "ASIF    " ;
-    let space = '    ' ;
-    console.log (space.repeat((n - i)) + str.repeat(i * 1 - 1 )) ;
+// let n = 20 ;
+// for (let i = 1 ; i <=n ; i++) {
+//     let str = "ASIF    " ;
+//     let space = '    ' ;
+//     console.log (space.repeat((n - i)) + str.repeat(i * 1 - 1 )) ;
+// }
+
+// function checkOddEven (x) {
+//     if (x%2==0) {
+//         console.log("The number you have given is Even")
+//     }
+//     else console.log("The number you have given is Odd")
+// }
+// checkOddEven(10)
+// checkOddEven(17)
+
+
+// function multiplication (x , y) {
+//     console.log ('The result of your multiplication is ' + x * y)
+// }
+// multiplication( 30 , 16)
+
+function check (x , y) {
+    while (x<=y) {
+        var d=x/3 ;
+        x++;
+        console.log (d)
+    }
 }
+check(22 , 236)
