@@ -255,3 +255,34 @@
 // }
 // checkif(9,16,6)
 
+
+// function ternaryCheck (x) {
+//     (x%2==0)?console.log('Even') : console.log('Odd')
+// }
+// ternaryCheck(10)
+
+
+// let ternary =function ternaryCheck (x) {
+//     (x%2==0)?console.log('Even') : console.log('Odd')
+// }
+// ternary(10)
+
+
+// let ternary = (x) => {
+//     (x%2==0)?console.log('Even') : console.log('Odd')
+// }
+// ternary(10)
+
+
+let CheckOddEven = (x , y) => {
+    (x%2==0)? console.log('X is Even') : console.log ('X is Odd');
+    (y%2==0)? console.log('Y is Even') : console.log ('Y is Odd');
+}
+CheckOddEven (11,12)
+
+function CheckBigNumber (x , y , z) {
+    (x>=y && x>=z)? console.log('X is Biggest') : console.log('') ;
+    (y>=x && y>=z)? console.log('Y is Biggest') : console.log('') ;
+    (z>=y && z>=x)? console.log('Z is Biggest') : console.log('') ;
+}
+CheckBigNumber(8,12,3)
