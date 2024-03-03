@@ -215,11 +215,43 @@
 // }
 // multiplication( 30 , 16)
 
-function check (x , y) {
-    while (x<=y) {
-        var d=x/3 ;
-        x++;
-        console.log (d)
-    }
-}
-check(22 , 236)
+// function check (x , y) {
+//     while (x<=y) {
+//         var d=x/3 ;
+//         x++;
+//         console.log (d)
+//     }
+// }
+// check(22 , 236)
+
+// function checkif (x , y , z) {
+//     if (x>=y && x>=z) {
+//         console.log ("X is Largest");    
+//     }
+//     if (y>=x && y>=z) {
+//         console.log ("Y is Largest");
+//     }
+//     if (z>=x && z>=y) {
+//         console.log ("Z is Largest");
+//     }
+//     if (x<=y && x<=z) {
+//         console.log ("X is Smallest"); 
+//     }
+//     if (y<=x && y<=z) {
+//         console.log ("Y is Smallest");
+//     }
+//     if (z<=x && z<=y) {
+//         console.log ("Z is Smallest");
+//     }
+//     if (x%2==0) {
+//         console.log ("X is Even Number")}
+//     else console.log ("X is Odd Number")
+//     if (y%2==0) {
+//         console.log ("Y is Even Number")}
+//     else console.log ("Y is Odd Number")
+//     if (z%2==0) {
+//         console.log ("Z is Even Number")}
+//     else console.log ("Z is Odd Number")
+// }
+// checkif(9,16,6)
+
