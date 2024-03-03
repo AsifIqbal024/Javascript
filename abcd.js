@@ -286,3 +286,8 @@ function CheckBigNumber (x , y , z) {
     (z>=y && z>=x)? console.log('Z is Biggest') : console.log('') ;
 }
 CheckBigNumber(8,12,3)
+
+let x='2024' ;
+console.log(typeof x) ;
+let y=Number.parseInt(x)
+console.log(typeof y)
