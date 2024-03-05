@@ -274,20 +274,35 @@
 // ternary(10)
 
 
-let CheckOddEven = (x , y) => {
-    (x%2==0)? console.log('X is Even') : console.log ('X is Odd');
-    (y%2==0)? console.log('Y is Even') : console.log ('Y is Odd');
-}
-CheckOddEven (11,12)
+// let CheckOddEven = (x , y) => {
+//     (x%2==0)? console.log('X is Even') : console.log ('X is Odd');
+//     (y%2==0)? console.log('Y is Even') : console.log ('Y is Odd');
+// }
+// CheckOddEven (11,12)
 
-function CheckBigNumber (x , y , z) {
-    (x>=y && x>=z)? console.log('X is Biggest') : console.log('') ;
-    (y>=x && y>=z)? console.log('Y is Biggest') : console.log('') ;
-    (z>=y && z>=x)? console.log('Z is Biggest') : console.log('') ;
-}
-CheckBigNumber(8,12,3)
+// function CheckBigNumber (x , y , z) {
+//     (x>=y && x>=z)? console.log('X is Biggest') : console.log('') ;
+//     (y>=x && y>=z)? console.log('Y is Biggest') : console.log('') ;
+//     (z>=y && z>=x)? console.log('Z is Biggest') : console.log('') ;
+// }
+// CheckBigNumber(8,12,3)
 
-let x='2024' ;
-console.log(typeof x) ;
-let y=Number.parseInt(x)
-console.log(typeof y)
+// let x='2024' ;
+// console.log(typeof x) ;
+// let y=Number.parseInt(x)
+// console.log(typeof y)
+
+
+// class Polygon {
+//     constructor() {
+//         this.name = 'Polygon';
+//         this.color = 'White' ;
+//     }
+//   }
+  
+//   const poly1 = new Polygon();
+  
+//   console.log(poly1.name);
+//   console.log(poly1.color);
+//   // Expected output: "Polygon"
+  
