@@ -306,3 +306,19 @@
 //   console.log(poly1.color);
 //   // Expected output: "Polygon"
   
+
+// class Person {
+//     constructor(name) {
+//       this.name = name;
+//     }
+  
+//     introduce() {
+//       console.log(`Hello, my name is ${this.name}`);
+//     }
+//   }
+  
+//   const otto = new Person("Kazi Asif Iqbal");
+  
+//   otto.introduce();
+  
+
