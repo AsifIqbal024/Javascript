@@ -317,8 +317,38 @@
 //     }
 //   }
   
-//   const otto = new Person("Kazi Asif Iqbal");
+//   const user1 = new Person("Kazi Asif Iqbal");
   
-//   otto.introduce();
+//   user1.introduce();
   
 
+// class WD{
+//   constructor (name,expertise) {
+//     this.name = name ;
+//     this.expertise = expertise ;
+//   }
+//   identity (name,expertise) {
+//     console.log (`Hello! My name is $(this.name) . I am a expert in $(this.expertise) .`)
+//   }
+// }
+// let user1 = new WD (`Kazi Asif Iqbal , CSS`)
+
+// user1.identity()
+
+
+// function number (a) {
+// for (let i = 1 ; i<=10 ; i++ ) {
+//     console.log (a*=i)
+// }
+// }
+
+
+let color = [ 'white' , 'red' , 'blue' , 'pink' , 'purple' , 'yellow' , 'violet']
+console.log(color.length)
+
+
+const array1 = [5, 12, 8, 130, 44];
+let index = 2;
+console.log(`An index of ${index} returns ${array1.at(index)}`);
+index = -2;
+console.log(`An index of ${index} returns ${array1.at(index)}`);
