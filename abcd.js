@@ -370,3 +370,27 @@
 // // Copy to index 1 all elements from index 3 to the end
 // console.log(array1.copyWithin(1, 3));
 // // Expected output: Array ["d", "d", "e", "d", "e"]
+
+
+// const words = ['spray', 'elite', 'exuberant', 'destruction', 'present'];
+// const result = words.filter((word) => word.length < 6);
+// console.log(result);
+
+// const array1 = [1, 2, 3, 4];
+
+
+// console.log(array1.fill(0, 2, 4));
+// console.log(array1.fill(5, 1));
+// console.log(array1.fill(6));
+
+
+// const isBelowThreshold = (currentValue) => currentValue < 40;
+// const array1 = [1, 30, 39, 29, 10, 13];
+// console.log(array1.every(isBelowThreshold));
+
+
+// const array1 = [5, 12, 8, 130, 44];
+// const found = array1.find((element) => element > 10);
+// console.log(found);
+
+
