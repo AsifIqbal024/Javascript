@@ -394,3 +394,29 @@
 // console.log(found);
 
 
+// const array1 = [1, 4, 9, 16];
+// const map1 = array1.map((x) => x * 2);
+// console.log(map1);
+
+
+// let asif = [3 , 6 , 9 , 14 , 27];
+// var ModifiedValue = asif.map((x) => x%2==0)
+// console.log(ModifiedValue)
+
+
+const Array = [ '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9'];
+console.log(Array);
+const Array1 = (Array.slice(2,8))
+console.log(Array1)
+const newarray = Array1.shift ();
+console.log(Array1);
+
+
+const numberssss = [1 , 2 , 4 , 6 ,9]
+const ChangedNumber = numberssss.pop();
+console.log(numberssss)
+
+
+const numberzzzz = [1 , 2 , 4 , 6 ,9]
+const ChangedNumberzzz = numberzzzz.push(1 , 2 , 3);
+console.log(numberzzzz)
