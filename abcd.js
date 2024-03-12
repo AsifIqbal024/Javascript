@@ -404,19 +404,59 @@
 // console.log(ModifiedValue)
 
 
-const Array = [ '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9'];
-console.log(Array);
-const Array1 = (Array.slice(2,8))
-console.log(Array1)
-const newarray = Array1.shift ();
-console.log(Array1);
 
 
-const numberssss = [1 , 2 , 4 , 6 ,9]
-const ChangedNumber = numberssss.pop();
-console.log(numberssss)
 
 
-const numberzzzz = [1 , 2 , 4 , 6 ,9]
-const ChangedNumberzzz = numberzzzz.push(1 , 2 , 3);
-console.log(numberzzzz)
+// const Array = [ '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9'];
+// const Array1 = (Array.slice(2,8))
+// console.log(Array1)
+
+// Array1.push('8', '9');
+// console.log(Array1)
+
+// Array1.unshift(1);
+// console.log(Array1)
+
+// Array1.shift();
+// Array1.shift();
+// console.log(Array1)
+
+
+// Array1.pop();
+// Array1.pop();
+// console.log(Array1)
+
+
+// const Abcd = [ '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9'];
+// console.log(Abcd.indexOf('4'));
+
+// console.log(Abcd.lastIndexOf('7'));
+
+// console.log(Abcd.join(' + '));
+
+// const Abcd1 = (even) => even%2==0;
+
+// console.log(Abcd.some(Abcd1));
+
+// const reversed = Abcd.toReversed();
+// console.log('toReversed:', reversed);
+
+
+
+// const Array1 = ['Apple' , 'Ant' , 'Book' , 'Ball'];
+// const Array2 = [];
+// for (const element of Array1){
+// Array2.push(element);
+// }
+
+// console.log(Array2);
+
+
+const Array1 = ['Apple' , 'Ant' , 'Book' , 'Ball'];
+const Array2 = [];
+Array2=Array1.map(x);
+
+console.log(Array2);
+
+
